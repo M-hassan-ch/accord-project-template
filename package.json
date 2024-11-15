@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@accordproject/cicero-core": "^0.24.0",
+    "@accordproject/cicero-engine": "^0.24.0",
+    "@accordproject/concerto": "^0.80.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "uuid": "^11.0.3"
+  }
+}

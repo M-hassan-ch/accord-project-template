@@ -1,0 +1,18 @@
+namespace org.property.transfer
+
+import org.accordproject.runtime.*
+import org.accordproject.contract.*
+
+asset PropertyTransfer extends Clause {
+  o String propertyId
+  o String owner
+  o Double price
+  o Integer totalTokens
+  o Buyer[] buyers
+}
+
+participant Buyer {
+  o String buyerId
+  o String buyerSignature
+  o Integer boughtTokens
+}

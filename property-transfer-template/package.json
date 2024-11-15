@@ -1,0 +1,18 @@
+{
+  "name": "property-transfer-template",
+  "version": "0.0.14",
+  "description": "Property Transfer Contract Template",
+  "accordproject": {
+    "template": "clause",
+    "cicero": "^0.24.0",
+    "runtime": "ergo"
+  },
+  "keywords": [
+    "property",
+    "transfer",
+    "contract"
+  ],
+  "dependencies": {
+    "@accordproject/concerto": "^0.80.3"
+  }
+}
